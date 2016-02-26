@@ -23,7 +23,7 @@ https.get("https://slack.com/api/channels.create?token="
         console.log("Failed to create #trump channel. Verify "
             + "that you added your API key.");
     }).on('end', function() {
-        console.log(data);
+        console.log(data;
     });
 });
 
